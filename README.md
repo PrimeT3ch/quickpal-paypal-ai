@@ -6,7 +6,7 @@ Built for the "Build What's Next with PayPal and AI" hackathon.
 
 ## Demo
 
-- Demo video: (add your YouTube link here)
+- Demo video: https://youtu.be/5TlVVQl4Jio?si=6Uf6m6IYgSPh2TCq
 
 ## Features
 
