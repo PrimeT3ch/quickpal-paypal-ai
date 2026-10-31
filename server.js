@@ -132,4 +132,7 @@ app.get('/api/config', (req, res) => {
     res.json({ paypalClientId: process.env.PAYPAL_CLIENT_ID });
 });
 
-app.listen(3000, () => console.log('Running at http://localhost:3000'));
+app.get('/', (req, res) => res.redirect('/quickquote.html'));
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log('Running at http://localhost:' + PORT));
